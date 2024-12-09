@@ -9,7 +9,8 @@ The program should then create a file with the specified name and write the data
 Why I did this in Rust instead of C/C++:
 - It is one of the more comfortable languages for me to write in
 - The syntax is fairly similar to C and python which means, to some extent, the concepts transfer over easily
-- Rust is a statically typed language, which means you don't have to worry about memory management. Dynamic memory management is handled by the garbage collector which is nice because it means you don't have to worry about memory leaks.
+- Rust is a statically typed language, which means you don't have to worry about memory management. There is no need for a garbage collector
+- Rust has a built-in error handling system which makes it easier to handle errors
 
 
 */
